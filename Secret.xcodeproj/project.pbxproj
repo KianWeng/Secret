@@ -19,6 +19,7 @@
 		36C14EB71A3BE07D00485B18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C14EB61A3BE07D00485B18 /* CoreGraphics.framework */; };
 		36C14EB91A3BE08700485B18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C14EB81A3BE08700485B18 /* UIKit.framework */; };
 		36C151831A3C0C2F00485B18 /* EncryptionAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C151821A3C0C2F00485B18 /* EncryptionAlgorithm.m */; };
+		E6262FBB1A3FD5140060D516 /* AlgorithmChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6262FBA1A3FD5140060D516 /* AlgorithmChooseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		36C14EB81A3BE08700485B18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36C151811A3C0C2F00485B18 /* EncryptionAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionAlgorithm.h; sourceTree = "<group>"; };
 		36C151821A3C0C2F00485B18 /* EncryptionAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionAlgorithm.m; sourceTree = "<group>"; };
+		E6262FB91A3FD5140060D516 /* AlgorithmChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmChooseViewController.h; sourceTree = "<group>"; };
+		E6262FBA1A3FD5140060D516 /* AlgorithmChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmChooseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				36C151821A3C0C2F00485B18 /* EncryptionAlgorithm.m */,
 				36B8A9211A3D18C1002F693A /* DecryptionAlgorithm.h */,
 				36B8A9221A3D18C1002F693A /* DecryptionAlgorithm.m */,
+				E6262FB91A3FD5140060D516 /* AlgorithmChooseViewController.h */,
+				E6262FBA1A3FD5140060D516 /* AlgorithmChooseViewController.m */,
 			);
 			path = Secret;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C14BD31A3BD57B00485B18 /* ViewController.m in Sources */,
+				E6262FBB1A3FD5140060D516 /* AlgorithmChooseViewController.m in Sources */,
 				36B8A9231A3D18C1002F693A /* DecryptionAlgorithm.m in Sources */,
 				36C14BD01A3BD57B00485B18 /* AppDelegate.m in Sources */,
 				36C151831A3C0C2F00485B18 /* EncryptionAlgorithm.m in Sources */,
