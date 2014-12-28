@@ -10,6 +10,6 @@
 
 @interface AlgorithmChooseViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
-
+@property (weak, nonatomic) NSString *currentIndexString;
 
 @end

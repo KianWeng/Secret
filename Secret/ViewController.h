@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "EncryptionAlgorithm.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
+@property (weak,nonatomic) NSString *algorithmText;
 
 @end
 

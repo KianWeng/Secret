@@ -111,6 +111,24 @@
     return encryptText;
 }
 
+- (NSString *)VigenereCipher:(NSString *)originalString withSecreKey:(NSString *)secreKey
+{
+    NSString *encryptText = [[NSString alloc] init];
+    return encryptText;
+}
+
+- (NSString *)PolybiusCipher:(NSString *)originalString
+{
+    NSString *encryptText = [[NSString alloc] init];
+    return encryptText;
+}
+
+- (NSString *)MultiplicationCipher:(NSString *)originalString withSecretKey:(int)secretKey
+{
+    NSString *encryptText = [[NSString alloc] init];
+    return encryptText;
+}
+
 - (NSString *)MorseCode:(NSString *)originalString
 {
     //originalString = [[NSString alloc] init];

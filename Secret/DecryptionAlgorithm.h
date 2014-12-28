@@ -13,9 +13,9 @@
 - (NSString *)DecryptionCaesarShiftsForEnglish:(NSString *)encryptionString withSecretKey: (int) secretKey;
 - (NSString *)DecryptionCaesarShiftsForChinese:(NSString *)encryptionString withSecretKey: (int) secretKey;
 - (NSString *)DecryptionTheRailFenceCipher: (NSString *) encryptionlString;
-//- (NSString *)VigenereCipher: (NSString *) string;
-//- (NSString *)PolybiusCipher: (NSString *) string;
-//- (NSString *)MultiplicationCipher: (NSString *) string;
+- (NSString *)VigenereCipher: (NSString *) string;
+- (NSString *)PolybiusCipher: (NSString *) string;
+- (NSString *)MultiplicationCipher: (NSString *) string;
 - (NSString *)DecryptionMorseCode: (NSString *) encryptionString;
 
 @end
